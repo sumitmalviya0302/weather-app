@@ -6,7 +6,9 @@ const nextConfig = {
 module.exports ={
   images:{
     domains:[
-      'images.unsplash.com' // to remove error about hostname for using images from other sites
+      // to remove error about hostname for using images from other sites,
+      'images.unsplash.com' ,
+      'openweathermap.org'
     ]
   }
 }
